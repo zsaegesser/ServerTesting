@@ -40,10 +40,11 @@ public class WebServer {
 
 			  }
 
-		    }
+		  }
 		  catch(IOException ex){
+				System.out.println("Error:")
 			  ex.printStackTrace();
 		  }
 
-		  }
+		}
 }
